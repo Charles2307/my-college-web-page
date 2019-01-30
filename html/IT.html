@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>U.I.E.T| IT</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../css/homepage.css">
+	<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+</head>
+<body onload="startTime()" style="margin: 0;">
+<div><header style="font-size: 3vh; padding: 2px;background-color: bisque"> <p style="margin-top: 0;color:black"><b><span style="float: left;" id="datetim"></span><span style="float: right;" id="txt"></span></b></p></header></div>
+<script>
+var dt = new Date();
+document.getElementById("datetim").innerHTML = dt.toLocaleDateString();
+</script>
+<div style="margin-top: 1vh;background-color: #666; height:20vh;width:100%; float:right;padding-left: 0;">
+	<header style="width:90%;height: 100%; font-size: 3vw;float:right;">
+	UNIVERSITY INSTITUTE OF ENGINEERING & TECHNOLOGY
+	<p style="font-size: 4vh;padding: 0;margin: 0;"> Panjab University,Chandigarh</p>
+	<p style="font-size: 3vh;padding: 0;margin-top: 3vh;background-color: white;color: black; margin-bottom: 0px;"><i>~To be the Front runner in Engineering Education and Research.</i></p>
+	</header>
+	<img src="../images/logo.jpeg" style="width: 10%;height: 20vh; float:left"></img>
+</div>
+<div style="height: 20vh"><header></header></div>
+
+<nav>
+	<caption><b style="font-size: calc(2vh + 1vw);text-decoration: underline solid">Latest News & Events</b></caption>
+	<ul>
+
+<li><marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="3"><p>
+&#9899; UIET ranking: UIET ranked <br>at position 17 among<br> top engineering colleges<br> of North India:<br>THE WEEK 2013</p>
+</marquee></li>
+<hr style="border-top: dotted 1px;" />
+<li><marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="3"><p>
+&#9899; UIET ranked at position 29<br> among top engineering <br>colleges of India:<br> Outlook professional colleges<br> handbook 2013</p></marquee></li>
+<hr style="border-top: dotted 1px;" />
+<li><marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="3"><p>
+&#9899; UIET ranked at position 10<br> among top engineering<br> colleges of north India:<br>Go Education Engineering<br>Colleges Survey 2012
+</p></marquee></li>
+<hr style="border-top: dotted 1px;" />
+<li><marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="3"><p>
+&#9899; Go Education Engineering<br> Colleges Survey 2012
+</p></marquee></li>
+<hr style="border-top: dotted 1px;" />
+<li><marquee onmouseover="this.stop();" onmouseout="this.start();" scrollamount="3"><p>
+&#9899;	UIET ranked at position 31<br> among top engineering<br> colleges of India:<br> OUTLOOK survey 2012
+</p></marquee></li>
+<hr style="border-top: dotted 1px;" />
+	</ul>
+
+</nav>
+<nav style="float: right;">
+<caption>
+	<b style="font-size:calc(2vh + 1vw);text-decoration: underline solid;">Important Links</b>
+</caption>
+<ul style="list-style-type:disc;">
+	<li><a href="http://uiet.puchd.ac.in/teqip/" target="_blank" >TEQIP</a> </li>
+	<hr style="border-top: dotted 1px;" />
+	<li><a href="http://ieeeuiet.in/" target="_blank">IEEE</a></li>
+	<hr style="border-top: dotted 1px;" />
+	<li><a href="https://www.facebook.com/uietpuofficial" target="_blank">UIET@FB</a></li>
+	<hr style="border-top: dotted 1px;" />
+	<li><a href="https://en.wikipedia.org/wiki/University_Institute_of_Engineering_and_Technology,_Panjab_University"target="_blank">WIKIPEDIA</a></li>
+	<hr style="border-top: dotted 1px;" />
+	<li><a href="http://edcuiet.in/udyami/" target="_blank">UDYAMI</a></li>
+	<hr style="border-top: dotted 1px;" />
+	<li><a href="http://uiet.puchd.ac.in/dic/" target="_blank"> DIC</a></li>
+	<hr style="border-top: dotted 1px;" />
+	<li><a href="http://puchd.ac.in/" target="_blank">PANJAB UNIVERSITY</a></li>
+	<hr style="border-top: dotted 1px;" />
+	<li><a href="http://chdenggadmissions.nic.in/jaccms/public/home.aspx" target="_blank">JAC-2018</a></li>
+	<hr style="border-top: dotted 1px;" />
+	<li><a href="Contact.html" target="_blank">CONTACT</a></li>
+	<hr style="border-top: dotted 1px;"/>
+</ul>
+</nav>
+<div  class="slideshow-container" style="height: 900px; margin-top:40px;">
+	<h1 id="main">Information Technology Syllabus For All Semesters</h1>
+  <ul class="back">
+		<div class="atag">
+      <li><a href="https://drive.google.com/open?id=15AWfN1DXs94n4BDn5byddhsIuYd5QQFk" target="_blank">IT course for 1st semester</a></li>
+      <li><a href="https://drive.google.com/open?id=1LoCA5f-mBmS6kCcvg7DWe3jikuU47CMV" target="_blank">IT course for 2nd semester</a></li>
+      <li><a href="https://drive.google.com/open?id=1dsLPM__uCdAmJJsfNU7zvB5AQ7z2LLSr" target="_blank">IT course for 3rd semester</a></li>
+      <li><a href="https://drive.google.com/open?id=1fM24C27_9F98kq_PvA678le1hNP0BoyR" target="_blank">IT course for 4th semester</a></li>
+      <li><a href="https://drive.google.com/open?id=1PWs-P1beQbcu-RgFLHGeunzqXfBXBu6Z" target="_blank">IT course for 5th semester</a></li>
+      <li><a href="https://drive.google.com/open?id=1ycETveNdTjTOZAM8Up3wNMbPmoJkmA52" target="_blank">IT course for 6th semester</a></li>
+      <li><a href="https://drive.google.com/open?id=1fc14vWyOcbbFR3ueFd2kvyuXMLgMvH1j" target="_blank">IT course for 7th semester</a></li>
+      <li><a href="https://drive.google.com/open?id=1reQKNQzIWpntLsa4pCfCW4EFVutmcJWM" target="_blank">IT course for 8th semester</a></li>
+    </div>
+  </ul>
+</div>
+<footer style="height: 54px;
+   left: 0;
+   bottom: 0;
+   width: 100%;"">
+<pre style="color: white; text-align:center;">Copyrights © 2018, All rights reserved with UIET, Panjab University, Chandigarh. </pre>
+<pre style="color: white; text-align:center; margin: 0">Developed & Maintained by IT Department, UIET.
+</footer>
+</div>
+</body>
+</html>

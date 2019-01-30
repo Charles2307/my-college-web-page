@@ -1,0 +1,258 @@
+
+
+<style>
+*{box-sizing: border-box}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.class1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666;
+    font-size: 3.5vh;
+}
+
+.class2 {font-size: 3.5vh;
+    float: left;
+    width: 14%
+}
+li a{ font-size: 2.5vh;
+    display: block;
+    text-align: center;
+    color:black;
+    padding: 18px;
+    text-decoration: none;
+}
+li a:hover{
+    color: blue;
+}
+li a:active{
+  color:white;
+}
+time{
+    font-size: 15px;
+    text-align: left;
+}
+
+/* Style the header */
+header {
+    background-color: #666;
+    padding: 0px;
+    text-align: center;
+    color: white;
+}
+
+/* Container for flexboxes */
+section {
+    display: -webkit-flex;
+    display: flex;
+}
+
+
+/* Style the content */
+article {
+    float: left;
+    background-color: #f1f1f1;
+    padding: 10px;
+    max-width:854px;
+    height: 300px
+}
+
+/* Style the footer */
+footer {
+    background-color: #666;
+    padding: 2px;
+    color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+}
+nav {margin-top: 35px;
+    float: left;
+    max-width: 15%;
+    height: 790px; /* only for demonstration, should be removed */
+    background: #ccc;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 50%;
+  position: relative;
+  margin: auto;
+
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.dropdown {
+  font-size: 25px;
+    float: left;
+}
+
+.dropdown .dropbtn {
+    padding-top: 20px;
+    padding-bottom: 19px;
+    font-size: 3.5vh;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #666;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: grey;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #666;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color:grey;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    color:  grey;
+}
+#main{
+  margin-top: 10px;
+ background:grey ;
+ font-family: arial,helvetica,sans-serif;
+ color: white;
+ font-size:calc(2vh+1vw);
+ text-align: center;
+}
+.back{
+  margin: 0;
+ list-style: square;
+ background-image:url('../images/back4.jpeg');
+ background-position: center;
+ height: 66%;
+}
+.atag li{
+  font-size: 25px;
+ padding-bottom: 8px;
+ border-bottom: dotted 1px #333;
+
+}
+
+.atag a{
+ color: black;
+}
+.atag a:hover{
+ color:blue;
+}
+.atag a:active{
+ color:white;
+}
+.back1{
+  margin: 0;
+ list-style: square;
+ background-image:url('../images/back4.jpeg');
+ background-position: center;
+
+}
+
+</style>
